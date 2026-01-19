@@ -17,6 +17,7 @@ Gazebo: Gazebo Harmonic (gz-harmonic)
 
 Required ROS2 Packages
 bashsudo apt update
+'''bash
 sudo apt install ros-jazzy-desktop
 sudo apt install ros-jazzy-gazebo-ros-pkgs
 sudo apt install ros-jazzy-teleop-twist-keyboard
