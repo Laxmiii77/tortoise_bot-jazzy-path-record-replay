@@ -1,4 +1,6 @@
-Overview
+# Tortoisebot in ROS2 Jazzy which records a path and replays it 
+
+# Overview
 This project provides a complete simulation environment for the TortoiseBot mobile robot. It includes:
 
 URDF/Xacro robot description
@@ -6,7 +8,7 @@ Gazebo simulation world
 Teleop keyboard control
 Launch files for easy startup
 
-Prerequisites
+# Prerequisites
 System Requirements
 
 OS: Ubuntu 24.04 (Noble Numbat)
@@ -15,7 +17,7 @@ Gazebo: Gazebo Harmonic (gz-harmonic)
 
 
 
-Required ROS2 Packages
+# Required ROS2 Packages
 bashsudo apt update
 ```bash
 sudo apt install ros-jazzy-desktop
@@ -27,7 +29,7 @@ sudo apt install ros-jazzy-xacro
 ```
 After building the workspace and sourcing it,
 
-Usage
+# Usage
 Terminal 1: Launch Gazebo Simulation
 ```
 ros2 launch tortoise_gazebo gazebo.launch.py
@@ -56,13 +58,13 @@ Terminal 5: To replay the path
 ```
 ros2 run teleop_memory replay_cmdvel
 ```
-Acknowledgments
+# Acknowledgments
 
 ROS2 Jazzy Documentation
 Gazebo Simulation Documentation
 TortoiseBot Community
 
-Contact
+# Contact
 For questions or issues, please open an issue on GitHub or contact:
 
 Maintainer: Laxmi
